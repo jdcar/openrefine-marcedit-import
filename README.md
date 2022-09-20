@@ -26,7 +26,7 @@ These are instructions for how I imported an OpenRefine project back into MarcEd
 Find: `^=LDR\t\t`
 Replace: `=LDR  `
 
-Find: `(^=00[123578])(\t)(..)(\t)(.+)`
+Find: `(^=00[123456789])(\t)(..)(\t)(.+)`
 Replace: `$1  $5`
 
 Find `(^=\d\d\d)(\t)(..)(\t)(.+)`
